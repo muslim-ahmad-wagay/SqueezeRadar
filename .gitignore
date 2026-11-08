@@ -1,0 +1,25 @@
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Python bytecode / caches
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Distribution / build
+build/
+dist/
+*.egg-info/
+
+# Environment / secrets (never commit these)
+.env
+.env.*
+*.key
+*.pem
+
+# OS / editors
+.DS_Store
+.idea/
+.vscode/
